@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		317B53CF1ADEF73800E82B6E /* UIImage+Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = 317B53CE1ADEF73800E82B6E /* UIImage+Filters.m */; };
+		4140F0F4ECA84E9396131286 /* libPods-filtered-images.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1AF0F5CCCB6ABD87191B38 /* libPods-filtered-images.a */; };
 		D833EF88197FE7CE00E99358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D833EF87197FE7CE00E99358 /* Foundation.framework */; };
 		D833EF8A197FE7CE00E99358 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D833EF89197FE7CE00E99358 /* CoreGraphics.framework */; };
 		D833EF8C197FE7CE00E99358 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D833EF8B197FE7CE00E99358 /* UIKit.framework */; };
@@ -72,6 +73,7 @@
 				D833EF8A197FE7CE00E99358 /* CoreGraphics.framework in Frameworks */,
 				D833EF8C197FE7CE00E99358 /* UIKit.framework in Frameworks */,
 				D833EF88197FE7CE00E99358 /* Foundation.framework in Frameworks */,
+				4140F0F4ECA84E9396131286 /* libPods-filtered-images.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,10 +138,8 @@
 				D833EF96197FE7CE00E99358 /* FISAppDelegate.h */,
 				D833EF97197FE7CE00E99358 /* FISAppDelegate.m */,
 				D833EF99197FE7CE00E99358 /* Main.storyboard */,
-				D833EFBC197FE82800E99358 /* Mickey.jpg */,
 				D833EF9C197FE7CE00E99358 /* FISViewController.h */,
 				D833EF9D197FE7CE00E99358 /* FISViewController.m */,
-				D833EF9F197FE7CE00E99358 /* Images.xcassets */,
 				317B53D01ADEF73C00E82B6E /* UIImage+Filters */,
 				D833EF8E197FE7CE00E99358 /* Supporting Files */,
 			);
@@ -149,6 +149,8 @@
 		D833EF8E197FE7CE00E99358 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D833EF9F197FE7CE00E99358 /* Images.xcassets */,
+				D833EFBC197FE82800E99358 /* Mickey.jpg */,
 				D833EF8F197FE7CE00E99358 /* filtered-images-Info.plist */,
 				D833EF90197FE7CE00E99358 /* InfoPlist.strings */,
 				D833EF93197FE7CE00E99358 /* main.m */,
